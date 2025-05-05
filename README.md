@@ -1,4 +1,4 @@
-Sales Analysis for Online Clothing Store
+Sales Analysis for fitness app
 
 Dashboard
 
@@ -6,7 +6,7 @@ View on Tableau Public
 
 Project Overview
 
-Objective: Analyze sales data for an online clothing store to identify key revenue drivers and provide actionable business recommendations.
+Objective: Analyze sales data for an fitness app to identify key revenue drivers and provide actionable business recommendations.
 
 Deadline: 7 days
 
