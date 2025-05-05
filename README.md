@@ -1,42 +1,44 @@
-Sales Analysis for fitness app
+# Onboarding Funnel Analysis for Mobile Fitness App
 
-Dashboard
+## Dashboard  
+[View on Tableau Public](https://public.tableau.com/authoring/HW5_1_17456903567060/Dashboard1#1)
 
-View on Tableau Public
+## Project Overview  
+Objective: Analyze the onboarding funnel of a mobile fitness app to identify user drop-off points and improve conversion rates across funnel stages.
 
-Project Overview
+Deadline: 7 days  
+Client: Product team of a mobile fitness application  
+Tools Used: Tableau, Excel
 
-Objective: Analyze sales data for an fitness app to identify key revenue drivers and provide actionable business recommendations.
+---
 
-Deadline: 7 days
+## Project Stages
 
-Target Audience: Marketing team and top management
+1. Business Understanding & Requirements
+   - Defined the funnel stages with the client (e.g., App Opened → Sign-Up → Set Goal → Enable Notifications → Start First Workout).
+   - Aligned on KPIs: conversion rates, drop-off percentages, and total user flow.
 
-Project Stages
+2. Data Preparation
+   - Cleaned raw CSV data: standardized stage names, parsed timestamps, removed duplicates.
+   - Restructured dataset for funnel analysis with unique user paths across defined stages.
 
-1. Goal Definition & Requirements Gathering
-Aligned with the client on focus areas: product categories, traffic sources, and customer behavior patterns.
-
-2. Data Cleaning & Preparation
-Checked data quality, handled missing values, normalized date formats and category labels.
-Merged multiple tables into a single analytical dataset.
-
-3. Data Analysis
-Explored revenue structure across product categories.
-Identified top-performing traffic channels.
-Analyzed customer behavior in relation to sales performance.
+3. Exploratory Data Analysis
+   - Calculated stage-to-stage conversion and drop-off rates.
+   - Identified highest friction points in the funnel (notably, "Enable Notifications" and "Start First Workout").
+   - Segment-based analysis by platform (iOS/Android).
 
 4. Visualization
-Built an interactive dashboard in Tableau.
-Included filters for product categories, traffic sources, and date ranges.
+   - Built a step-by-step interactive funnel in Tableau.
+   - Added filters by device type and cohort date to allow dynamic exploration.
 
-5. Presentation & Client Feedback
-Delivered results with clear trend interpretations.
-Provided data-driven recommendations to optimize marketing efforts and product focus.
+5. Insights & Recommendations
+   - Identified that the largest user drop-off occurred between goal setting and notification opt-in.
+   - Recommended A/B testing for opt-in screen design and making first workout content more accessible.
 
+---
 
-Outcome
+## Outcome
 
-Delivered a user-friendly dashboard for ongoing performance tracking.
-Discovered that 80% of revenue comes from just 3 product categories.
-Proposed actionable strategies for marketing budget reallocation and category prioritization.
+- Delivered a clear, actionable funnel dashboard for the product team.
+- Helped prioritize UX improvements in early onboarding.
+- Funnel metrics are now tracked weekly as part of product OKRs.
